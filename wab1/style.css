@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: DuctusCalligraphicttf;
+    src: url(/font/DuctusCalligraphic.ttf);
+
+
+}
+
+h1{
+    font-size: 3em;
+    font-family: DuctusCalligraphicttf;
+    font-weight: 100px ;
+    text-align: center;
+    
+   }
+   
+
+   
+   
+   h2{
+    
+    font-family: DuctusCalligraphicttf;
+ }
+
+
+
+
+
+
+
+
+
+
+/*main*/
+
+body{
+    
+    background-color: rgb(207, 255, 223);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+
+main{
+    background-color: aliceblue;
+    padding: 25px;
+
+}
+
+
+img{ width: auto;
+height: 200px;}
+
+.img-wrap{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.hartje{
+    color: crimson;
+    font-size: 55px;
+    margin: 0%;
+}
+.pick{
+    color: black;
+    font-size: 55px;
+    margin: 0%;
+}
+
+.diams{
+    color: brown;
+    font-size: 55px;
+    margin: 0%;
+}
+
+
+.diams:hover{
+    font-size: 65px;
+    color: blue;
+}
+
+
+
+
+
+.pick:hover{
+    font-size: 65px;
+    color: rgb(76, 247, 190);
+}
+
+
+
+.hartje:hover{
+    font-size: 65px;
+    color: rgb(255, 71, 108);
+    
+ 
+}
+
+
+.link1{
+    font-size: 20px;
+    text-align: center;
+display:block;   
+margin:0 auto;
+padding-bottom: 10px;
+}
+
+.link1:hover{
+    font-size: 30px;
+    color: crimson;
+}
+.tussentitel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
